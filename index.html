@@ -5,39 +5,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Html Basic</title>
 </head>
 
-<body style="
+<body>
 
-width: 100vw;
-        height: auto;
-        min-height: 100vh;
+    <body style="
+        background-color: whitesmoke;
+        text-align: center;
         padding: 0;
         margin: 0;
         overflow-x: hidden;
-        background-color: whitesmoke;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        ">
 
-">
-    <main style="
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-image: url(https://picsum.photos/seed/25/300);
-        background-size: cover;
-    "></main>
+        <nav class="navbar" style="
+            padding: 20px;
+            background-color: mediumaquamarine;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            left: 0;
+        ">
+            <a href="" style="
+                    text-decoration: none;
+                    color: red;
+                    
+                    "><strong>Brand</strong>
+            </a>
+            <ul style="
+                list-style: none;
+                margin-left: auto;
+                justify-content: flex-end;
+                gap: 20px;
+                overflow: hidden;
+                display: flex;
+                flex-direction: row;
+            ">
+                <li><a href="#" style="text-decoration: none; color: white;">Home</a></li>
+                <li><a href="#" style="text-decoration: none; color: white;">About</a></li>
+                <li><a href="#" style="text-decoration: none; color: white;">Contact</a></li>
+                <li><a href="" style="text-decoration: none; color: white;">Galery</a></li>
+            </ul>
+        </nav>
 
-    <h1 style="
-    
-        
-    
-    ">Selamat Datang</h1>
+        <main style="
+            width: 100vw;
+            height: auto;
+            min-height: 100vh;
+        ">
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolor temporibus aliquam dolorem. Magnam
-        molestias rem provident autem nobis, cumque perspiciatis quia error, consectetur a accusantium debitis!
-        Excepturi, doloribus assumenda!</p>
-</body>
+            <section style="
+            
+                width: 100vw;
+                height: 100vh;
+                background-image: url(https://picsum.photos/seed/yana26/900);
+                background-size: cover;
+                background-attachment: fixed;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            
+            ">
+                <h1 style="
+                
+                    font-size: 6rem;
+                    color: white;
+                    text-shadow: 3px 3px 5px black;
+
+                ">Welcome to My World</h1>
+            </section>
+
+            <section style="
+            
+                    width: 100vw;
+                    height: 100vh;
+                    background-image: url(https://picsum.photos/seed/yana30/900);
+                    background-size: cover;
+                    background-attachment: fixed;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                
+                ">
+                <h1 style="
+                    
+                        font-size: 6rem;
+                        color: white;
+                        text-shadow: 3px 3px 5px black;
+
+                ">Yana's Profile</h1>
+            </section>
+
+        </main>
+        <div class="footer" style="
+            background-color: black;
+            position: sticky;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: white;
+            text-align: center;
+            justify-content: center;
+        ">
+            <footer>
+                <p>@jvalley2021</p>
+            </footer>
+        </div>
+    </body>
 
 </html>
